@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./img/logo-header.png" type="image/x-icon">
+    <title>Mario Bros</title>
+</head>
+
+<div class="mascara-formulario" onclick="mascaraClique()"></div>
+
+<div class="header">
+    <img src="./img/logo-header.png" alt="logo mario">
+    <a>Home</a>
+    <a>Nossos serviços</a>
+    <a onclick="Header()">Fale conosco</a>
+</div>
+
+<body>
+    <div class="caixa-mae">
+        <div class="caixa-principal">
+            <img src="./img/logo.png" alt="logo do mario bros" class="logo-mario">
+            <p>Encanador Mario - Resolvendo seus problemas com estilo!</p>
+            <p>Você Já se encontrou em uma situação de emergência com encanamento? Vazamentos inesperados, canos
+                entupidos ou
+                torneiras q não param de pingar? Não se preocupe, porque estamos aqui para salvar o dia! Apresentamos os
+                encanadores mais famosos do Reino dos Cogumelos - Mario e Luigi!</p>
+
+
+            <button onclick="cliqueiNoBotao()">Entre em contato</button>
+        </div>
+        <div>
+            <img src="./img/mario.png" alt="logo mario e luigi" class="imagem-mario-luigi">
+        </div>
+    </div>
+
+    <div class="caixa-video">
+        <video src="./img/video.mp4" autoplay loop muted></video>
+        <div class="mascara"></div>
+    </div>
+
+    <a href="https://wa.me/5521957131568?text=Ol%C3%A1%2C%20gostaria%20de%20falar%20com%20os%20irm%C3%A3os%20Mario!"
+        class="link-whatsapp">
+        <img src="./img/whatsapp.png" alt="link para whatsapp">
+    </a>
+
+    <form class="formulario-fale-conosco">
+        <input placeholder="Seu nome">
+        <input placeholder="Seu telefone">
+        <textarea placeholder="Descreva seu problema aqui"></textarea>
+        <button>Pedir Orçamento</button>
+    </form>
+
+</body>
+
+<script src="scripts.js"></script>
+
+</html>
