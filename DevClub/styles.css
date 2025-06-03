@@ -3,8 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     line-height: 1.6;
     color: #222;
     background-color: black;
@@ -20,48 +21,53 @@ body {
 }
 
 header {
-background: #000;
-color: white;
-padding: 100px 20px 120px;
-align-items: center;
-position: relative;
+    background: #000;
+    color: white;
+    padding: 100px 20px 180px;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    overflow: visible;
 }
 
 .gradient-text {
-    background: linear-gradient(90deg, #00F5FF,#0080FF,#FF00FF);
+    background: linear-gradient(90deg, #00F5FF, #0080FF, #FF00FF);
     background-clip: text;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;;
+    -webkit-text-fill-color: transparent;
+    ;
     font-size: 4.5em;
     font-weight: 900;
     margin-bottom: 30px;
     letter-spacing: -2px;
     line-height: 1.1;
-    
+
 }
+
 .subtitle {
-font-size: 1.5em;
-margin-bottom: 50px;
-color: #999;
-font-weight: 300;
-max-width: 700px;
-margin-left: auto;
-margin-right: auto;
+    font-size: 1.5em;
+    margin-bottom: 50px;
+    color: #999;
+    font-weight: 300;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .hero-button {
     display: inline-block;
-    background: linear-gradient(90deg, #00F5FF,#0080FF);
+    background: linear-gradient(90deg, #00F5FF, #0080FF);
     color: black;
-padding: 20px 60px;
-border-radius: 100px;
-border: none;
-text-decoration: none;
-font-size: 1.1em;
-font-weight: 700;
-text-transform: uppercase;
-letter-spacing: 2px;
-cursor: pointer;
+    padding: 20px 60px;
+    border-radius: 100px;
+    border: none;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+    margin-bottom: 40px;
 }
 
 .hero-button:hover {
@@ -84,16 +90,16 @@ cursor: pointer;
 
 .benefit {
     display: grid;
-grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-gap: 30px;
-background-color: black;
-padding:120px 20px;
-position: relative;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 30px;
+    background-color: black;
+    padding: 120px 20px;
+    position: relative;
 }
 
 .benefit-card {
     background: linear-gradient(145deg, #111, #1a1a1a);
-    border:  1px solid #222;
+    border: 1px solid #222;
     border-radius: 30px;
     padding: 50px 40px;
     position: relative;
@@ -107,107 +113,122 @@ position: relative;
     left: -2px;
     right: -2px;
     bottom: -2px;
-    background: linear-gradient(90deg, #00F5FF,#0080FF,#FF00FF);
+    background: linear-gradient(90deg, #00F5FF, #0080FF, #FF00FF);
     border-radius: 30px;
     opacity: 0;
     z-index: -1;
     transition: 0.5s ease;
 }
 
-    .benefit-card:hover::before{
+.benefit-card:hover::before {
     opacity: 1;
-    }
+}
 
-    .benefit-card:hover {
+.benefit-card:hover {
     transform: translateY(-10px);
     background: #111;
     cursor: pointer;
-    }
+}
 
-    .benefit-number {
-        font-size: 5em;
-        font-weight: 900;
-        background: linear-gradient(90deg, #00F5FF,#0080FF);
-        -webkit-background-clip: text;
-        background-clip: text;
-        -webkit-text-fill-color: transparent;
-        margin-bottom: 20px;
-    }
+.benefit-number {
+    font-size: 5em;
+    font-weight: 900;
+    background: linear-gradient(90deg, #00F5FF, #0080FF);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 20px;
+}
 
-    .benefit-card:hover .benefit-number {
-        background: none;
-        -webkit-background-clip: unset;
-        background-clip: unset;
-        -webkit-text-fill-color: unset;
-        color: #FF00FF;
-    }
+.benefit-card:hover .benefit-number {
+    background: none;
+    -webkit-background-clip: unset;
+    background-clip: unset;
+    -webkit-text-fill-color: unset;
+    color: #FF00FF;
+}
 
-    .benefit-card h3 {
-        color: #777;
-        line-height: 1.8;
-        font-size: 1.1em;
-    }
+.benefit-card h2 {
+    background: linear-gradient(90deg, #00F5FF, #0080FF);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 20px;
+}
 
-    .features {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 20px;
-        justify-content: center;
-        background-color: #111;
-        padding: 120px 20px;
-        text-align: center;
-    }
+.benefit-card:hover h2 {
+    background: none;
+    -webkit-background-clip: unset;
+    background-clip: unset;
+    -webkit-text-fill-color: unset;
+    color: #FF00FF;
+}
 
-    .features h2 {
-        width: 100%;
-        margin-bottom: 50px;
-    }
+.benefit-card h3 {
+    color: #777;
+    line-height: 1.8;
+    font-size: 1.1em;
+}
 
-    .pill {
-        color: white;
-        background-color: #000;
-        border: 2px solid #222;
-        border-radius: 50px;
-        font-weight: 600;
-        padding: 15px 30px;
-        transition: 0.5s;
-        cursor: pointer;
-    }
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    background-color: #111;
+    padding: 120px 20px;
+    text-align: center;
+}
 
-    .pill:hover {
-        border-color: #00f5ff;
-        color: #00f5ff;
-        transform: scale(1.1);
-    }
+.features h2 {
+    width: 100%;
+    margin-bottom: 50px;
+}
 
-    .cta-section {
-        background: linear-gradient(145deg, #111, #1a1a1a);
-        border: 2px solid #222;
-        border-radius: 40px;
-        padding: 80px 40px;
-        text-align: center;
-        position: relative;
-        overflow: hidden;
-        margin: 120px auto;
-    }
+.pill {
+    color: white;
+    background-color: #000;
+    border: 2px solid #222;
+    border-radius: 50px;
+    font-weight: 600;
+    padding: 15px 30px;
+    transition: 0.5s;
+    cursor: pointer;
+}
 
-    .cta-section h2 {
-        font-size: 3em;
-        margin-bottom: 20px;
-        color: white;
-    }
+.pill:hover {
+    border-color: #00f5ff;
+    color: #00f5ff;
+    transform: scale(1.1);
+}
 
-    .cta-section p {
-        font-size: 1.4em;
-        margin-bottom: 40px;
-        color: #888;
-    }
+.cta-section {
+    background: linear-gradient(145deg, #111, #1a1a1a);
+    border: 2px solid #222;
+    border-radius: 40px;
+    padding: 80px 40px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    margin: 120px auto;
+}
 
-    footer {
-        background-color: #000;
-        color: #666;
-        text-align: center;
-        padding: 60px 0;
-        border-top: 1px solid #222;
-    }
+.cta-section h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: white;
+}
 
+.cta-section p {
+    font-size: 1.4em;
+    margin-bottom: 40px;
+    color: #888;
+}
+
+footer {
+    background-color: #000;
+    color: #666;
+    text-align: center;
+    padding: 60px 0;
+    border-top: 1px solid #222;
+}
