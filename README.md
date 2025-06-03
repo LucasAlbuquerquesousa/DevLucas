@@ -13,6 +13,7 @@
 ### 2. Projeto: Irmão Mario
 <br>
 <img src="https://github.com/LucasAlbuquerquesousa/Portif-lio/blob/main/assets/Captura%20de%20tela%202025-05-27%20155111.png?raw=true"/>
+<img src="https://github.com/LucasAlbuquerquesousa/Portif-lio/blob/main/assets/Captura%20de%20tela%202025-06-03%20125051.png?raw=true"/>
 <br>
 
 - **Tecnologias:** HTML5, CSS, JavaScript
