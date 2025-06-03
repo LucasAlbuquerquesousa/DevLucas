@@ -11,6 +11,10 @@
 - **Desafios Enfrentados:** primeira vez q eu usei a tecnologia webkit no meu CSS
 
 ### 2. Projeto: Irmão Mario
+<br>
+<img src="https://github.com/LucasAlbuquerquesousa/Portif-lio/blob/main/assets/Captura%20de%20tela%202025-05-27%20155111.png?raw=true"/>
+<br>
+
 - **Tecnologias:** HTML5, CSS, JavaScript
 - **Descrição:** Um site de capatação de leed
 - **Desafios Enfrentados:** Usar p JavaScript pela primeira vez
