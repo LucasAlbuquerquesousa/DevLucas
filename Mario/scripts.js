@@ -13,7 +13,7 @@ function cliqueiNoBotao() {
 
 function mascaraClique() {
     mascara.style.visibility = "hidden"
-    form.style.left = "-300px"
+    form.style.left = "-299px"
     form.style.top = "30%"
 }
 
