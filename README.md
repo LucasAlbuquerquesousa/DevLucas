@@ -5,7 +5,7 @@
 ## Projetos
 
 ### 1. Projeto: DevClub
-[Veja o site com suas animações](https://github.com/LucasAlbuquerquesousa/Portif-lio/blob/main/assets/WhatsApp%20Video%202025-06-03%20at%2014.36.40.mp4)
+<img src="https://github.com/LucasAlbuquerquesousa/Projetos/blob/main/assets/Captura%20de%20tela%202025-06-03%20223822.png?raw=true"/>
 <br>
 
 - **Tecnologias:** HTML, CSS
