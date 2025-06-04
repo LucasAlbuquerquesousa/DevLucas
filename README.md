@@ -6,6 +6,8 @@
 
 ### 1. Projeto: DevClub
 [Veja o site com suas animações](https://github.com/LucasAlbuquerquesousa/Portif-lio/blob/main/assets/WhatsApp%20Video%202025-06-03%20at%2014.36.40.mp4)
+<br>
+
 - **Tecnologias:** HTML, CSS
 - **Descrição:** É uma pagina de venda cursos
 - **Desafios Enfrentados:** primeira vez q eu usei a tecnologia webkit no meu CSS
