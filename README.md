@@ -5,16 +5,25 @@
 ## Projetos
 
 ### 1. Projeto: DevClub
+[Veja o site com suas animações](https://github.com/LucasAlbuquerquesousa/Portif-lio/blob/main/assets/WhatsApp%20Video%202025-06-03%20at%2014.36.40.mp4)
 - **Tecnologias:** HTML, CSS
 - **Descrição:** É uma pagina de venda cursos
 - **Desafios Enfrentados:** primeira vez q eu usei a tecnologia webkit no meu CSS
 
 ### 2. Projeto: Irmão Mario
+<br>
+<img src="https://github.com/LucasAlbuquerquesousa/Portif-lio/blob/main/assets/Captura%20de%20tela%202025-05-27%20155111.png?raw=true"/>
+<img src="https://github.com/LucasAlbuquerquesousa/Portif-lio/blob/main/assets/Captura%20de%20tela%202025-06-03%20125051.png?raw=true"/>
+<br>
+
 - **Tecnologias:** HTML5, CSS, JavaScript
 - **Descrição:** Um site de capatação de leed
 - **Desafios Enfrentados:** Usar p JavaScript pela primeira vez
 
 ### 3. Projeto: PetShop
+<img src="https://github.com/LucasAlbuquerquesousa/Portif-lio/blob/main/assets/We%20Care.png?raw=true"/>
+<br>
+
 - **Tecnologias:** HTML, CSS, Responsividade
 - **Descrição:** Um bom template para um PetShop
 - **Desafios Enfrentados:** Foik importante no meu dominio de HTML e CSS
