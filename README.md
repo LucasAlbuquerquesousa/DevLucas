@@ -5,13 +5,14 @@
 ## Projetos
 
 ### 1. Projeto: DevClub
+<br>
 <img src="https://github.com/LucasAlbuquerquesousa/Projetos/blob/main/assets/Captura%20de%20tela%202025-06-03%20223822.png?raw=true"/>
 <br>
 
 - **Tecnologias:** HTML, CSS
 - **Descrição:** É uma pagina de venda cursos
 - **Desafios Enfrentados:** primeira vez q eu usei a tecnologia webkit no meu CSS
-
+<br>
 ### 2. Projeto: Irmão Mario
 <br>
 <img src="https://github.com/LucasAlbuquerquesousa/Portif-lio/blob/main/assets/Captura%20de%20tela%202025-05-27%20155111.png?raw=true"/>
@@ -21,7 +22,7 @@
 - **Tecnologias:** HTML5, CSS, JavaScript
 - **Descrição:** Um site de capatação de leed
 - **Desafios Enfrentados:** Usar p JavaScript pela primeira vez
-
+<br>
 ### 3. Projeto: PetShop
 <img src="https://github.com/LucasAlbuquerquesousa/Portif-lio/blob/main/assets/We%20Care.png?raw=true"/>
 <br>
@@ -29,11 +30,11 @@
 - **Tecnologias:** HTML, CSS, Responsividade
 - **Descrição:** Um bom template para um PetShop
 - **Desafios Enfrentados:** Foik importante no meu dominio de HTML e CSS
-
+<br>
 ## Aprendizados
-
+<br>
 Durante o desenvolvimento desses projetos, aprendi a importância de:
-
+<br>
 - **HTML e HTML5:** Estruturar o conteúdo de forma semântica e acessível.
 - **CSS:** Criar layouts atraentes e responsivos.
 - **JavaScript:** Implementar lógica de programação para adicionar interatividade às páginas.
