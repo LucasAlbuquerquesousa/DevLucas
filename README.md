@@ -4,14 +4,14 @@
 
 # Projetos
 
-# 1. Projeto: DevClub
+<h2>1. Projeto: DevClub</h2>
 <br>
 <img src="https://github.com/LucasAlbuquerquesousa/Projetos/blob/main/assets/Captura%20de%20tela%202025-06-03%20223822.png?raw=true"/>
 <br>
 
-- **Tecnologias:** HTML, CSS
-- **Descrição:** É uma pagina de venda cursos
-- **Desafios Enfrentados:** primeira vez q eu usei a tecnologia webkit no meu CSS
+- <h2>Tecnologias:</h2> <p>HTML, CSS<p/>
+- <h2>Descrição:</h2> <p>É uma pagina de venda cursos<p/>
+- <h2>Desafios Enfrentados:</h2> <p>primeira vez q eu usei a tecnologia webkit no meu CSS<p/>
 <br>
 ### 2. Projeto: Irmão Mario
 <br>
