@@ -2,9 +2,9 @@
 
 <p>Bem-vindo ao meu repositório de projetos de desenvolvimento web! Aqui você encontrará uma coleção de projetos que desenvolvi ao longo do meu aprendizado em HTML, HTML5, CSS, JavaScript e técnicas de responsividade. Cada projeto reflete um passo importante na minha jornada de aprendizado e superação de desafios, especialmente no início do meu aprendizado em JavaScript.<p/>
 
-## Projetos
+# Projetos
 
-### 1. Projeto: DevClub
+# 1. Projeto: DevClub
 <br>
 <img src="https://github.com/LucasAlbuquerquesousa/Projetos/blob/main/assets/Captura%20de%20tela%202025-06-03%20223822.png?raw=true"/>
 <br>
@@ -28,6 +28,7 @@
 <br>
 
 - **Tecnologias:** HTML, CSS, Responsividade
+- <br>
 - **Descrição:** Um bom template para um PetShop
 - **Desafios Enfrentados:** Foik importante no meu dominio de HTML e CSS
 <br>
