@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    height: 100%;
+    min-height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    background-color: black;
+    background-image: url(./assets/Fundo-Site.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.conteiner-buttons {
+    margin: 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+button {
+    background-color: #79cb15;
+    border: none;
+    border-radius: 15px;
+    color: black;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.5s ease-in-out;
+    width: 110px;
+}
+
+button:hover {
+    background-color: #507c1b;
+}
+
+ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+li {
+    border: 2px solid #8133ff;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: black;
+    transition: 0.3s;
+    cursor: pointer;
+    /* visibility: hidden; */
+}
+
+li:hover {
+    transform: scale(1.1);
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+p {
+    color: white;
+}
+
+.item-price {
+    font-weight: bold;
+    color: #79cb15;
+}
