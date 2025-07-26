@@ -607,6 +607,10 @@ body {
     position: relative;
 }
 
+.link-projetos {
+    text-decoration: none;
+}
+
 .projetos-card::before {
     content: '';
     position: absolute;
