@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GOAT Store - Moda Premium e Estilo Único</title>
+    <meta name="description" content="GOAT Fashion Store - Descubra roupas premium que transformam cada momento em elegância. Personal stylist, consultoria de guarda-roupa e styling para eventos.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Navigation -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-brand">
+                <!-- LOGO DA LOJA - SUBSTITUA AQUI -->
+                <img src="assets/GOAT-logo.png" alt="GOAT" class="logo">
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#inicio" class="nav-link">Início</a></li>
+                <li><a href="#servicos" class="nav-link">Serviços</a></li>
+                <li><a href="#atendentes" class="nav-link">Atendentes</a></li>
+                <li><a href="#depoimentos" class="nav-link">Depoimentos</a></li>
+                <li><a href="#contato" class="nav-link">Contato</a></li>
+            </ul>
+            <button class="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section - Início -->
+        <section id="inicio" class="hero-section">
+            <div class="hero-background">
+                <div class="hero-overlay"></div>
+            </div>
+            
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="title-gold">GOAT</span>
+                    <br>
+                    <span class="title-white">Store</span>
+                </h1>
+                
+                <p class="hero-subtitle">
+                    Seu visual no topo do pódio 🥇🐐Transforme seu visual hoje<br>Enviamos para Nova russas e região
+                </p>
+                
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" onclick="scrollToSection('contato')">
+                        Fale Conosco
+                    </button>
+                    <button class="btn btn-outline" onclick="scrollToSection('servicos')">
+                        Nossos Serviços
+                    </button>
+                </div>
+                
+                <div class="hero-features">
+                    <div class="feature-card">
+                        <div class="feature-icon gold">✨</div>
+                        <h3>Qualidade Premium</h3>
+                        <p>Roupas selecionadas com os melhores materiais e acabamentos</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon blue">👥</div>
+                        <h3>Atendimento Personalizado</h3>
+                        <p>Consultores especializados para criar o seu look perfeito</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon gold">🎯</div>
+                        <h3>Estilo Único</h3>
+                        <p>Peças exclusivas que destacam sua personalidade</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="scroll-indicator">
+                <div class="scroll-mouse">
+                    <div class="scroll-wheel"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section - Serviços -->
+        <section id="servicos" class="services-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">
+                        <span class="title-gold">Nossos</span> Serviços
+                    </h2>
+                    <p class="section-description">
+                        Oferecemos uma gama completa de serviços especializados para transformar seu estilo e elevar sua confiança
+                    </p>
+                </div>
+                
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">👔</div>
+                        <h3 class="service-title">Personal Stylist</h3>
+                        <p class="service-description">Consultoria completa de estilo para criar looks únicos que expressam sua personalidade</p>
+                        <ul class="service-features">
+                            <li>Análise de biótipo</li>
+                            <li>Cartela de cores</li>
+                            <li>Montagem de looks</li>
+                        </ul>
+                        <button class="service-cta" onclick="scrollToSection('contato')">
+                            Solicitar Orçamento →
+                        </button>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon">👗</div>
+                        <h3 class="service-title">Consultoria de Guarda-Roupa</h3>
+                        <p class="service-description">Organizamos e otimizamos seu guarda-roupa com peças versáteis e funcionais</p>
+                        <ul class="service-features">
+                            <li>Organização do closet</li>
+                            <li>Descarte consciente</li>
+                            <li>Lista de compras direcionada</li>
+                        </ul>
+                        <button class="service-cta" onclick="scrollToSection('contato')">
+                            Solicitar Orçamento →
+                        </button>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon">🛍️</div>
+                        <h3 class="service-title">Personal Shopping</h3>
+                        <p class="service-description">Acompanhamento personalizado nas compras para encontrar as peças perfeitas</p>
+                        <ul class="service-features">
+                            <li>Seleção prévia de peças</li>
+                            <li>Acompanhamento na loja</li>
+                            <li>Aprovação final dos looks</li>
+                        </ul>
+                        <button class="service-cta" onclick="scrollToSection('contato')">
+                            Solicitar Orçamento →
+                        </button>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon">✨</div>
+                        <h3 class="service-title">Styling para Eventos</h3>
+                        <p class="service-description">Looks especiais para ocasiões importantes como casamentos, formaturas e eventos corporativos</p>
+                        <ul class="service-features">
+                            <li>Análise do dress code</li>
+                            <li>Coordenação de acessórios</li>
+                            <li>Prova dos looks</li>
+                        </ul>
+                        <button class="service-cta" onclick="scrollToSection('contato')">
+                            Solicitar Orçamento →
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="services-footer">
+                    <p>Todos os serviços podem ser combinados para uma experiência completa de transformação do seu estilo</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Team Section - Atendentes -->
+        <section id="atendentes" class="team-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">
+                        <span class="title-gold">Nossa</span> Equipe
+                    </h2>
+                    <p class="section-description">
+                        Conheça nossos especialistas em moda, prontos para transformar seu estilo com expertise e dedicação
+                    </p>
+                </div>
+                
+                <div class="team-grid">
+                    <div class="team-card">
+                        <div class="team-image">
+                            <img src="" alt="Marina Silva - Personal Stylist" onerror="this.src='https://via.placeholder.com/300x300/d4af37/ffffff?text=Marina+Silva'">
+                            <div class="team-overlay"></div>
+                        </div>
+                        <div class="team-info">
+                            <h3 class="team-name">Marina Silva</h3>
+                            <p class="team-role">Personal Stylist Senior</p>
+                            <p class="team-description">
+                                Especialista em moda feminina com mais de 8 anos de experiência. 
+                                Formada em Design de Moda e pós-graduada em Personal Styling.
+                            </p>
+                            <div class="team-specialties">
+                                <h4>Especialidades</h4>
+                                <div class="specialties-list">
+                                    <span class="specialty">Moda Feminina</span>
+                                    <span class="specialty">Eventos Especiais</span>
+                                    <span class="specialty">Consultoria Corporativa</span>
+                                </div>
+                            </div>
+                            <div class="team-contact">
+                                <span class="instagram">Instagram: @marina.stylist</span>
+                                <button class="team-cta" onclick="scrollToSection('contato')">
+                                    Agendar Consulta →
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="team-card">
+                        <div class="team-image">
+                            <img src="" alt="Rafael Costa - Consultor de Moda Masculina" onerror="this.src='https://via.placeholder.com/300x300/4a9eff/ffffff?text=Rafael+Costa'">
+                            <div class="team-overlay"></div>
+                        </div>
+                        <div class="team-info">
+                            <h3 class="team-name">Rafael Costa</h3>
+                            <p class="team-role">Consultor de Moda Masculina</p>
+                            <p class="team-description">
+                                Expert em moda masculina contemporânea, ajudando homens a encontrarem seu estilo único. 
+                                Certificado internacional em Personal Shopping.
+                            </p>
+                            <div class="team-specialties">
+                                <h4>Especialidades</h4>
+                                <div class="specialties-list">
+                                    <span class="specialty">Moda Masculina</span>
+                                    <span class="specialty">Business Casual</span>
+                                    <span class="specialty">Alfaiataria</span>
+                                </div>
+                            </div>
+                            <div class="team-contact">
+                                <span class="instagram">Instagram: @rafael.style</span>
+                                <button class="team-cta" onclick="scrollToSection('contato')">
+                                    Agendar Consulta →
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="team-footer">
+                    <p>Quer conhecer melhor nosso trabalho? Entre em contato e agende uma consulta personalizada!</p>
+                    <button class="btn btn-primary" onclick="scrollToSection('contato')">
+                        Falar com a Equipe
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section - Depoimentos -->
+        <section id="depoimentos" class="testimonials-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">
+                        <span class="title-gold">O que nossos</span> clientes dizem
+                    </h2>
+                    <p class="section-description">
+                        Transformações reais de pessoas que confiaram em nosso trabalho
+                    </p>
+                </div>
+                
+                <div class="testimonials-grid">
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                        <p class="testimonial-text">
+                            "A Marina transformou completamente meu guarda-roupa! Agora sei exatamente o que combina comigo e me sinto muito mais confiante. O investimento valeu cada centavo!"
+                        </p>
+                        <div class="testimonial-author">
+                            <strong>Ana Carolina</strong>
+                            <span>Executiva</span>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                        <p class="testimonial-text">
+                            "O Rafael me ajudou a criar um estilo profissional incrível. Recebi vários elogios no trabalho e me sinto mais seguro nas reuniões. Recomendo muito!"
+                        </p>
+                        <div class="testimonial-author">
+                            <strong>Carlos Eduardo</strong>
+                            <span>Advogado</span>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                        <p class="testimonial-text">
+                            "Para meu casamento, a equipe GOAT criou um look perfeito! Todos elogiaram minha elegância. Foi exatamente como sonhei. Obrigada por tornarem meu dia ainda mais especial!"
+                        </p>
+                        <div class="testimonial-author">
+                            <strong>Juliana Santos</strong>
+                            <span>Noiva</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section - Contato -->
+        <section id="contato" class="contact-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">
+                        <span class="title-gold">Entre em</span> Contato
+                    </h2>
+                    <p class="section-description">
+                        Pronto para transformar seu estilo? Fale conosco e agende sua consultoria personalizada
+                    </p>
+                </div>
+                
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-icon">📍</div>
+                            <div>
+                                <h3>Localização</h3>
+                                <p>Rua da Moda, 123<br>Centro, São Paulo - SP</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">📞</div>
+                            <div>
+                                <h3>Telefone</h3>
+                                <p>(11) 99999-9999</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">📧</div>
+                            <div>
+                                <h3>E-mail</h3>
+                                <p>contato@goatfashion.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">🕒</div>
+                            <div>
+                                <h3>Horário de Funcionamento</h3>
+                                <p>Segunda a Sexta: 9h às 19h<br>Sábado: 9h às 17h</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form">
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <label for="name">Nome Completo</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">E-mail</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="phone">Telefone</label>
+                                <input type="tel" id="phone" name="phone" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="service">Serviço de Interesse</label>
+                                <select id="service" name="service" required>
+                                    <option value="">Selecione um serviço</option>
+                                    <option value="personal-stylist">Personal Stylist</option>
+                                    <option value="consultoria-guarda-roupa">Consultoria de Guarda-Roupa</option>
+                                    <option value="personal-shopping">Personal Shopping</option>
+                                    <option value="styling-eventos">Styling para Eventos</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">Mensagem</label>
+                                <textarea id="message" name="message" rows="4" placeholder="Conte-nos mais sobre suas necessidades..."></textarea>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary form-submit">
+                                Enviar Mensagem
+                            </button>
+                        </form>
+                    </div>
+                </div>
+                
+                <div class="whatsapp-contact">
+                    <p>Prefere falar pelo WhatsApp?</p>
+                    <!-- ALTERE O NÚMERO DO WHATSAPP AQUI -->
+                    <a href="https://wa.me/5511999999999" target="_blank" class="whatsapp-btn">
+                        <span class="whatsapp-icon">📱</span>
+                        Falar no WhatsApp
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <!-- LOGO DA LOJA - SUBSTITUA AQUI -->
+                    <h3>GOAT Fashion Store</h3>
+                    <p>Transformando estilos, elevando confiança.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Serviços</h4>
+                        <ul>
+                            <li><a href="#servicos">Personal Stylist</a></li>
+                            <li><a href="#servicos">Consultoria de Guarda-Roupa</a></li>
+                            <li><a href="#servicos">Personal Shopping</a></li>
+                            <li><a href="#servicos">Styling para Eventos</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h4>Empresa</h4>
+                        <ul>
+                            <li><a href="#atendentes">Nossa Equipe</a></li>
+                            <li><a href="#depoimentos">Depoimentos</a></li>
+                            <li><a href="#contato">Contato</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h4>Contato</h4>
+                        <ul>
+                            <li>(11) 99999-9999</li>
+                            <li>contato@goatfashion.com</li>
+                            <li>Rua da Moda, 123 - SP</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 GOAT Fashion Store. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float Button -->
+    <div class="whatsapp-float">
+        <!-- ALTERE O NÚMERO DO WHATSAPP AQUI -->
+        <a href="https://wa.me/5511999999999" target="_blank" class="whatsapp-float-btn">
+            <img src="assets/whatsapp.png" alt="WhatsApp" class="whatsapp-icon">
+        </a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
