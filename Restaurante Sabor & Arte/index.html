@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabor & Arte Restaurante - Culinária Brasileira Contemporânea</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <h1>Sabor & Arte</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Início</a></li>
+                <li><a href="#menu">Cardápio</a></li>
+                <li><a href="#chef">Chef</a></li>
+                <li><a href="#ambiente">Ambiente</a></li>
+                <li><a href="#reservas">Reservas</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg">
+            <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2074&q=80" alt="Restaurante">
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title">Sabor & Arte</h1>
+            <p class="hero-subtitle">Culinária Brasileira Contemporânea</p>
+            <p class="hero-description">Uma experiência gastronômica única em Porto Alegre</p>
+            <div class="hero-buttons">
+                <a href="#menu" class="btn btn-primary">Ver Cardápio</a>
+                <a href="#reservas" class="btn btn-secondary">Reservar Mesa</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nosso Cardápio</h2>
+                <p>Pratos cuidadosamente elaborados com ingredientes selecionados</p>
+            </div>
+            
+            <div class="menu-categories">
+                <button class="category-btn active" data-category="entradas">Entradas</button>
+                <button class="category-btn" data-category="pratos-principais">Pratos Principais</button>
+                <button class="category-btn" data-category="sobremesas">Sobremesas</button>
+                <button class="category-btn" data-category="bebidas">Bebidas</button>
+            </div>
+
+            <div class="menu-items">
+                <!-- Entradas -->
+                <div class="menu-category active" data-category="entradas">
+                    <div class="menu-item">
+                        <img src="https://images.unsplash.com/photo-1541014741259-de529411b96a?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Bruschetta">
+                        <div class="item-info">
+                            <h3>Bruschetta de Tomate Confitado</h3>
+                            <p>Pão artesanal com tomates confitados, manjericão e queijo de cabra</p>
+                            <span class="price">R$ 28,00</span>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <img src="https://images.unsplash.com/photo-1562967914-608f82629710?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Carpaccio">
+                        <div class="item-info">
+                            <h3>Carpaccio de Salmão</h3>
+                            <p>Fatias finas de salmão com alcaparras, rúcula e molho mostarda</p>
+                            <span class="price">R$ 35,00</span>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <img src="https://images.unsplash.com/photo-1551218808-94e220e084d2?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Bolinho">
+                        <div class="item-info">
+                            <h3>Bolinho de Bacalhau</h3>
+                            <p>Clássico brasileiro com toque especial da casa e aioli de limão</p>
+                            <span class="price">R$ 32,00</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pratos Principais -->
+                <div class="menu-category" data-category="pratos-principais">
+                    <div class="menu-item">
+                        <img src="https://images.unsplash.com/photo-1546833999-b9f581a1996d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Picanha">
+                        <div class="item-info">
+                            <h3>Picanha Nobre</h3>
+                            <p>Picanha premium grelhada com farofa de banana e vinagrete</p>
+                            <span class="price">R$ 68,00</span>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <img src="https://images.unsplash.com/photo-1559847844-d5f4dae00b19?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Peixe">
+                        <div class="item-info">
+                            <h3>Salmão Grelhado</h3>
+                            <p>Salmão ao molho de maracujá com risotto de camarão</p>
+                            <span class="price">R$ 72,00</span>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <img src="https://images.unsplash.com/photo-1574894709920-11b28e7367e3?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Frango">
+                        <div class="item-info">
+                            <h3>Frango Caipira</h3>
+                            <p>Peito de frango com crosta de ervas e purê de mandioquinha</p>
+                            <span class="price">R$ 54,00</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sobremesas -->
+                <div class="menu-category" data-category="sobremesas">
+                    <div class="menu-item">
+                        <img src="https://images.unsplash.com/photo-1488477181946-6428a0291777?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Pudim">
+                        <div class="item-info">
+                            <h3>Pudim de Leite Condensado</h3>
+                            <p>Clássico pudim caseiro com calda de caramelo</p>
+                            <span class="price">R$ 18,00</span>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <img src="https://images.unsplash.com/photo-1551024506-0bccd828d307?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Petit gateau">
+                        <div class="item-info">
+                            <h3>Petit Gateau</h3>
+                            <p>Bolo de chocolate quente com sorvete de baunilha</p>
+                            <span class="price">R$ 22,00</span>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <img src="https://images.unsplash.com/photo-1567206563064-6f60f40a2b57?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Açaí">
+                        <div class="item-info">
+                            <h3>Açaí Gourmet</h3>
+                            <p>Açaí cremoso com frutas frescas e granola artesanal</p>
+                            <span class="price">R$ 16,00</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bebidas -->
+                <div class="menu-category" data-category="bebidas">
+                    <div class="menu-item">
+                        <img src="https://images.unsplash.com/photo-1544145945-f90425340c7e?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Caipirinha">
+                        <div class="item-info">
+                            <h3>Caipirinha Premium</h3>
+                            <p>Cachaça artesanal com frutas da estação</p>
+                            <span class="price">R$ 18,00</span>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <img src="https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Vinho">
+                        <div class="item-info">
+                            <h3>Vinho da Casa</h3>
+                            <p>Seleção especial de vinhos nacionais e importados</p>
+                            <span class="price">A partir de R$ 25,00</span>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <img src="https://images.unsplash.com/photo-1509669803555-2dd415fe3552?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Suco">
+                        <div class="item-info">
+                            <h3>Sucos Naturais</h3>
+                            <p>Sucos frescos de frutas tropicais</p>
+                            <span class="price">R$ 12,00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chef Section -->
+    <section id="chef" class="chef">
+        <div class="container">
+            <div class="chef-content">
+                <div class="chef-image">
+                    <img src="https://images.unsplash.com/photo-1577219491135-ce391730fb2c?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Chef">
+                </div>
+                <div class="chef-info">
+                    <h2>Chef Marina Santos</h2>
+                    <p class="chef-title">Chef Executiva</p>
+                    <p>Com mais de 15 anos de experiência na gastronomia, a Chef Marina Santos traz para o Sabor & Arte uma proposta única de culinária brasileira contemporânea.</p>
+                    <p>Formada em gastronomia pela Le Cordon Bleu e com passagens por renomados restaurantes do Brasil e Europa, Marina combina técnicas clássicas com ingredientes regionais brasileiros.</p>
+                    <div class="chef-awards">
+                        <div class="award">
+                            <i class="fas fa-award"></i>
+                            <span>Prêmio Dólmã 2022</span>
+                        </div>
+                        <div class="award">
+                            <i class="fas fa-star"></i>
+                            <span>4 Estrelas Guia Brasil</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ambiente Section -->
+    <section id="ambiente" class="ambiente">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nosso Ambiente</h2>
+                <p>Um espaço aconchegante e sofisticado</p>
+            </div>
+            <div class="ambiente-gallery">
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1551218808-94e220e084d2?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Salão Principal">
+                    <div class="gallery-overlay">
+                        <h3>Salão Principal</h3>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Área Externa">
+                    <div class="gallery-overlay">
+                        <h3>Área Externa</h3>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1559329007-40df8a9345d8?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Mesa Romântica">
+                    <div class="gallery-overlay">
+                        <h3>Mesa Romântica</h3>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1424847651672-bf20a4b0982b?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Bar">
+                    <div class="gallery-overlay">
+                        <h3>Bar</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reservas Section -->
+    <section id="reservas" class="reservas">
+        <div class="container">
+            <div class="section-header">
+                <h2>Reserve Sua Mesa</h2>
+                <p>Garante já o seu lugar em nossa casa</p>
+            </div>
+            <div class="reserva-form">
+                <form id="reservaForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="text" id="nome" required placeholder="Seu Nome">
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="telefone" required placeholder="Telefone">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="date" id="data" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="time" id="hora" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <select id="pessoas" required>
+                                <option value="">Número de pessoas</option>
+                                <option value="1">1 pessoa</option>
+                                <option value="2">2 pessoas</option>
+                                <option value="3">3 pessoas</option>
+                                <option value="4">4 pessoas</option>
+                                <option value="5">5 pessoas</option>
+                                <option value="6+">6 ou mais pessoas</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="observacoes" placeholder="Observações especiais (opcional)"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Confirmar Reserva</button>
+                </form>
+            </div>
+            
+            <div class="horario-funcionamento">
+                <h3>Horário de Funcionamento</h3>
+                <div class="horarios">
+                    <p><strong>Terça a Domingo:</strong> 18h00 às 23h00</p>
+                    <p><strong>Fechado:</strong> Segunda-feira</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato Section -->
+    <section id="contato" class="contato">
+        <div class="container">
+            <div class="section-header">
+                <h2>Contato</h2>
+                <p>Venha nos visitar ou entre em contato</p>
+            </div>
+            <div class="contato-content">
+                <div class="contato-info">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Endereço</h3>
+                            <p>Rua da Gastronomia, 123<br>Moinhos de Vento<br>Porto Alegre - RS</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Telefone</h3>
+                            <p>(51) 99999-5555</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>E-mail</h3>
+                            <p>contato@saborearte.com.br</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h3>Funcionamento</h3>
+                            <p>Terça a Domingo<br>18h00 às 23h00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WhatsApp Float Button -->
+    <a href="https://wa.me/5551999995555" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>Sabor & Arte</h3>
+                    <p>Culinária Brasileira Contemporânea</p>
+                </div>
+                <div class="footer-info">
+                    <p>&copy; 2024 Sabor & Arte Restaurante. Todos os direitos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

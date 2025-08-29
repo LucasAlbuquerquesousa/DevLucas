@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbearia Classic - Rio de Janeiro</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="logo">
+                <h1>BARBEARIA CLASSIC</h1>
+                <span>Tradição desde sempre</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Início</a></li>
+                <li><a href="#services">Serviços</a></li>
+                <li><a href="#gallery">Galeria</a></li>
+                <li><a href="#barbers">Barbeiros</a></li>
+                <li><a href="#testimonials">Depoimentos</a></li>
+                <li><a href="#contact">Contato</a></li>
+                <li><button class="btn-schedule" onclick="openScheduleModal()">Agendar</button></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>BARBEARIA CLASSIC</h1>
+            <h2>Estilo e Tradição</h2>
+            <p>Mais de 20 anos oferecendo o melhor em cortes masculinos, barbas e cuidados estéticos no Rio de Janeiro</p>
+            <div class="hero-buttons">
+                <button class="btn-primary" onclick="openScheduleModal()">Agendar Horário</button>
+                <a href="#services" class="btn-secondary">Nossos Serviços</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Interior da Barbearia Classic">
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Nossos Serviços</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-cut"></i>
+                    </div>
+                    <h3>Corte Masculino</h3>
+                    <p>Cortes clássicos e modernos com técnicas tradicionais</p>
+                    <span class="price">R$ 35,00</span>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                    <h3>Barba Completa</h3>
+                    <p>Aparar, modelar e finalizar com produtos premium</p>
+                    <span class="price">R$ 25,00</span>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-scissors"></i>
+                    </div>
+                    <h3>Bigode</h3>
+                    <p>Modelagem e aparar bigodes com precisão</p>
+                    <span class="price">R$ 15,00</span>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <h3>Sobrancelha</h3>
+                    <p>Design e modelagem de sobrancelhas masculinas</p>
+                    <span class="price">R$ 20,00</span>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-spa"></i>
+                    </div>
+                    <h3>Tratamentos</h3>
+                    <p>Tratamentos faciais e cuidados especiais</p>
+                    <span class="price">R$ 45,00</span>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>Pacote Completo</h3>
+                    <p>Corte + Barba + Sobrancelha</p>
+                    <span class="price">R$ 65,00</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2 class="section-title">Galeria</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1585747860715-2ba37e788b70?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Corte clássico">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Barba bem feita">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Interior da barbearia">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1605497788044-5a32c7078486?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Produtos de qualidade">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1622287162716-f311baa1a2b8?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Ambiente acolhedor">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1596178065887-1198b6148b2b?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Técnicas tradicionais">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Barbers Section -->
+    <section id="barbers" class="barbers">
+        <div class="container">
+            <h2 class="section-title">Nossos Barbeiros</h2>
+            <div class="barbers-grid">
+                <div class="barber-card">
+                    <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="João Silva">
+                    <h3>João Silva</h3>
+                    <p>Proprietário e Barbeiro Master</p>
+                    <span>25 anos de experiência</span>
+                </div>
+                <div class="barber-card">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Carlos Santos">
+                    <h3>Carlos Santos</h3>
+                    <p>Especialista em Barbas</p>
+                    <span>15 anos de experiência</span>
+                </div>
+                <div class="barber-card">
+                    <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Pedro Costa">
+                    <h3>Pedro Costa</h3>
+                    <p>Cortes Modernos</p>
+                    <span>8 anos de experiência</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2 class="section-title">Depoimentos</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"Excelente atendimento! O João é um profissional excepcional. Sempre saio satisfeito com o corte."</p>
+                    <h4>- Marcus Oliveira</h4>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"A melhor barbearia do Rio! Ambiente acolhedor e barbeiros muito talentosos."</p>
+                    <h4>- Roberto Lima</h4>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"Tradição e qualidade em um só lugar. Frequento há mais de 10 anos!"</p>
+                    <h4>- André Silva</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contato</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Endereço</h3>
+                            <p>Rua das Palmeiras, 123<br>Copacabana - Rio de Janeiro - RJ<br>CEP: 22070-000</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Telefone</h3>
+                            <p>(21) 99999-7777</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h3>Horário de Funcionamento</h3>
+                            <p>Terça a Sábado: 9h às 19h<br>Domingo e Segunda: Fechado</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Envie uma Mensagem</h3>
+                    <form id="contactForm">
+                        <input type="text" name="name" placeholder="Seu Nome" required>
+                        <input type="email" name="email" placeholder="Seu E-mail" required>
+                        <input type="tel" name="phone" placeholder="Seu Telefone">
+                        <textarea name="message" placeholder="Sua Mensagem" required></textarea>
+                        <button type="submit" class="btn-primary">Enviar Mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>BARBEARIA CLASSIC</h3>
+                    <p>Tradição e qualidade em cortes masculinos há mais de 20 anos no Rio de Janeiro.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="#home">Início</a></li>
+                        <li><a href="#services">Serviços</a></li>
+                        <li><a href="#gallery">Galeria</a></li>
+                        <li><a href="#contact">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contato</h4>
+                    <p><i class="fas fa-phone"></i> (21) 99999-7777</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Copacabana - RJ</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Barbearia Classic. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Schedule Modal -->
+    <div id="scheduleModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeScheduleModal()">&times;</span>
+            <h2>Agendar Horário</h2>
+            <form id="scheduleForm">
+                <input type="text" name="name" placeholder="Seu Nome" required>
+                <input type="tel" name="phone" placeholder="Seu Telefone" required>
+                <select name="service" required>
+                    <option value="">Escolha o Serviço</option>
+                    <option value="Corte Masculino">Corte Masculino - R$ 35,00</option>
+                    <option value="Barba Completa">Barba Completa - R$ 25,00</option>
+                    <option value="Bigode">Bigode - R$ 15,00</option>
+                    <option value="Sobrancelha">Sobrancelha - R$ 20,00</option>
+                    <option value="Tratamentos">Tratamentos - R$ 45,00</option>
+                    <option value="Pacote Completo">Pacote Completo - R$ 65,00</option>
+                </select>
+                <select name="barber" required>
+                    <option value="">Escolha o Barbeiro</option>
+                    <option value="João Silva">João Silva</option>
+                    <option value="Carlos Santos">Carlos Santos</option>
+                    <option value="Pedro Costa">Pedro Costa</option>
+                </select>
+                <input type="date" name="date" required>
+                <select name="time" required>
+                    <option value="">Escolha o Horário</option>
+                    <option value="09:00">09:00</option>
+                    <option value="10:00">10:00</option>
+                    <option value="11:00">11:00</option>
+                    <option value="14:00">14:00</option>
+                    <option value="15:00">15:00</option>
+                    <option value="16:00">16:00</option>
+                    <option value="17:00">17:00</option>
+                    <option value="18:00">18:00</option>
+                </select>
+                <textarea name="observations" placeholder="Observações (opcional)"></textarea>
+                <button type="submit" class="btn-primary">Confirmar Agendamento</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- WhatsApp Float Button -->
+    <a href="https://wa.me/5521999997777" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
