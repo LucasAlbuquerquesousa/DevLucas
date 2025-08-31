@@ -451,7 +451,7 @@ section {
 
 .team-image {
     position: relative;
-    height: 300px;
+    height: 700px;
     overflow: hidden;
 }
 
@@ -916,10 +916,22 @@ img {
 @media (max-width: 768px) {
     /* Navigation */
     .nav-menu {
-        display: none;
+        position: fixed;
+        top: -100%;
+        left: 0;
+        width: 100%;
+        background: rgba(10, 10, 10, 0.98);
+        flex-direction: column;
+        padding: 2rem;
+        gap: 1rem;
+        transition: top 0.3s ease;
+        backdrop-filter: blur(10px);
+        display: flex;
     }
     
-
+    .nav-menu.active {
+        top: 80px;
+    }
     
     .mobile-menu-btn {
         display: flex;
@@ -942,6 +954,10 @@ img {
     .hero-features {
         grid-template-columns: 1fr;
         gap: 1.5rem;
+    }
+
+    .team-image {
+        height: 300px;
     }
     
     /* Section Titles */
