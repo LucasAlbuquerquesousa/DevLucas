@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitPro Training - Personal Trainer Premium</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2><i class="fas fa-dumbbell"></i> FitPro</h2>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#programas">Programas</a></li>
+                <li><a href="#resultados">Resultados</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero" id="home">
+        <div class="hero-content">
+            <h1 class="hero-title">Transforme seu corpo,<br>transforme sua vida</h1>
+            <p class="hero-subtitle">Personal trainer especializado em resultados reais e duradouros</p>
+            <div class="hero-buttons">
+                <a href="#contato" class="cta-button primary">Treino Gratuito</a>
+                <a href="#programas" class="cta-button secondary">Ver Programas</a>
+            </div>
+        </div>
+        <div class="hero-stats">
+            <div class="stat-item">
+                <span class="stat-number">200+</span>
+                <span class="stat-label">Clientes transformados</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">5+</span>
+                <span class="stat-label">Anos de experiência</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">95%</span>
+                <span class="stat-label">Taxa de sucesso</span>
+            </div>
+        </div>
+    </header>
+
+    <section class="sobre" id="sobre">
+        <div class="container">
+            <div class="sobre-content">
+                <div class="sobre-image">
+                    <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=500&h=600&fit=crop" alt="Personal Trainer">
+                    <div class="certificacoes">
+                        <div class="cert-item">
+                            <i class="fas fa-certificate"></i>
+                            <span>CREF Ativo</span>
+                        </div>
+                        <div class="cert-item">
+                            <i class="fas fa-medal"></i>
+                            <span>Especialista em Hipertrofia</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="sobre-text">
+                    <h2>Sobre o Personal</h2>
+                    <p>Sou <strong>Marcus Silva</strong>, formado em Educação Física e especializado em transformação corporal. Com mais de 5 anos de experiência, já ajudei centenas de pessoas a alcançarem seus objetivos.</p>
+                    <p>Minha metodologia combina treinos personalizados, acompanhamento nutricional e suporte psicológico para garantir resultados sustentáveis.</p>
+                    
+                    <div class="especializacoes">
+                        <h3>Especializações</h3>
+                        <div class="especialidades-grid">
+                            <div class="especialidade">
+                                <i class="fas fa-weight-lifting"></i>
+                                <span>Hipertrofia Muscular</span>
+                            </div>
+                            <div class="especialidade">
+                                <i class="fas fa-running"></i>
+                                <span>Emagrecimento</span>
+                            </div>
+                            <div class="especialidade">
+                                <i class="fas fa-heartbeat"></i>
+                                <span>Condicionamento</span>
+                            </div>
+                            <div class="especialidade">
+                                <i class="fas fa-apple-alt"></i>
+                                <span>Reeducação Alimentar</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="servicos" id="servicos">
+        <div class="container">
+            <h2 class="section-title">Serviços</h2>
+            <div class="servicos-grid">
+                <div class="servico-card">
+                    <div class="servico-icon">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <h3>Personal 1:1</h3>
+                    <p>Treino individualizado com acompanhamento exclusivo para máximos resultados</p>
+                    <ul class="servico-features">
+                        <li><i class="fas fa-check"></i> Treino personalizado</li>
+                        <li><i class="fas fa-check"></i> Acompanhamento nutricional</li>
+                        <li><i class="fas fa-check"></i> Suporte 24/7</li>
+                    </ul>
+                    <div class="servico-preco">
+                        <span class="preco">R$ 180</span>
+                        <span class="periodo">/sessão</span>
+                    </div>
+                </div>
+
+                <div class="servico-card destaque">
+                    <div class="badge">Mais Popular</div>
+                    <div class="servico-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Personal em Dupla</h3>
+                    <p>Treine com um amigo e motive-se mutuamente com preço especial</p>
+                    <ul class="servico-features">
+                        <li><i class="fas fa-check"></i> Treino em dupla</li>
+                        <li><i class="fas fa-check"></i> Motivação extra</li>
+                        <li><i class="fas fa-check"></i> Preço por pessoa</li>
+                    </ul>
+                    <div class="servico-preco">
+                        <span class="preco">R$ 120</span>
+                        <span class="periodo">/sessão</span>
+                    </div>
+                </div>
+
+                <div class="servico-card">
+                    <div class="servico-icon">
+                        <i class="fas fa-laptop"></i>
+                    </div>
+                    <h3>Consultoria Online</h3>
+                    <p>Programa de treino e dieta personalizado para fazer em casa ou na academia</p>
+                    <ul class="servico-features">
+                        <li><i class="fas fa-check"></i> Programa personalizado</li>
+                        <li><i class="fas fa-check"></i> Videos explicativos</li>
+                        <li><i class="fas fa-check"></i> Suporte via WhatsApp</li>
+                    </ul>
+                    <div class="servico-preco">
+                        <span class="preco">R$ 297</span>
+                        <span class="periodo">/mês</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="programas" id="programas">
+        <div class="container">
+            <h2 class="section-title">Programas de Treino</h2>
+            <div class="programas-tabs">
+                <button class="tab-btn active" data-tab="hipertrofia">Hipertrofia</button>
+                <button class="tab-btn" data-tab="emagrecimento">Emagrecimento</button>
+                <button class="tab-btn" data-tab="condicionamento">Condicionamento</button>
+                <button class="tab-btn" data-tab="funcional">Funcional</button>
+            </div>
+
+            <div class="tab-content active" id="hipertrofia">
+                <div class="programa-details">
+                    <div class="programa-info">
+                        <h3>Programa Hipertrofia Avançada</h3>
+                        <p>Desenvolvido para quem busca ganho de massa muscular máximo com técnicas avançadas de treinamento.</p>
+                        <div class="programa-specs">
+                            <div class="spec">
+                                <i class="fas fa-clock"></i>
+                                <span>60-90 min por sessão</span>
+                            </div>
+                            <div class="spec">
+                                <i class="fas fa-calendar"></i>
+                                <span>4-6 treinos por semana</span>
+                            </div>
+                            <div class="spec">
+                                <i class="fas fa-target"></i>
+                                <span>Foco em hipertrofia</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="programa-image">
+                        <img src="https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?w=500&h=400&fit=crop" alt="Treino Hipertrofia">
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-content" id="emagrecimento">
+                <div class="programa-details">
+                    <div class="programa-info">
+                        <h3>Programa Queima Total</h3>
+                        <p>Combinação de treino de força e cardio para acelerar o metabolismo e queimar gordura eficientemente.</p>
+                        <div class="programa-specs">
+                            <div class="spec">
+                                <i class="fas fa-clock"></i>
+                                <span>45-60 min por sessão</span>
+                            </div>
+                            <div class="spec">
+                                <i class="fas fa-calendar"></i>
+                                <span>5-6 treinos por semana</span>
+                            </div>
+                            <div class="spec">
+                                <i class="fas fa-fire"></i>
+                                <span>Alto gasto calórico</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="programa-image">
+                        <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=500&h=400&fit=crop" alt="Treino Emagrecimento">
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-content" id="condicionamento">
+                <div class="programa-details">
+                    <div class="programa-info">
+                        <h3>Programa Resistência Plus</h3>
+                        <p>Melhore sua capacidade cardiovascular e resistência muscular com treinos progressivos.</p>
+                        <div class="programa-specs">
+                            <div class="spec">
+                                <i class="fas fa-clock"></i>
+                                <span>45-75 min por sessão</span>
+                            </div>
+                            <div class="spec">
+                                <i class="fas fa-calendar"></i>
+                                <span>4-5 treinos por semana</span>
+                            </div>
+                            <div class="spec">
+                                <i class="fas fa-heartbeat"></i>
+                                <span>Melhora cardiovascular</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="programa-image">
+                        <img src="https://images.unsplash.com/photo-1594381898411-846e7d193883?w=500&h=400&fit=crop" alt="Treino Condicionamento">
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-content" id="funcional">
+                <div class="programa-details">
+                    <div class="programa-info">
+                        <h3>Programa Funcional 360°</h3>
+                        <p>Treino funcional completo para melhorar mobilidade, equilíbrio e força para atividades do dia a dia.</p>
+                        <div class="programa-specs">
+                            <div class="spec">
+                                <i class="fas fa-clock"></i>
+                                <span>30-45 min por sessão</span>
+                            </div>
+                            <div class="spec">
+                                <i class="fas fa-calendar"></i>
+                                <span>3-4 treinos por semana</span>
+                            </div>
+                            <div class="spec">
+                                <i class="fas fa-sync"></i>
+                                <span>Movimentos funcionais</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="programa-image">
+                        <img src="https://images.unsplash.com/photo-1601422407692-ec4eeec1d9b3?w=500&h=400&fit=crop" alt="Treino Funcional">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="resultados" id="resultados">
+        <div class="container">
+            <h2 class="section-title">Resultados Reais</h2>
+            <div class="resultados-grid">
+                <div class="resultado-card">
+                    <div class="antes-depois">
+                        <div class="antes">
+                            <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=200&h=250&fit=crop" alt="Antes">
+                            <span>Antes</span>
+                        </div>
+                        <div class="depois">
+                            <img src="https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?w=200&h=250&fit=crop" alt="Depois">
+                            <span>Depois</span>
+                        </div>
+                    </div>
+                    <div class="resultado-info">
+                        <h3>Ana Silva</h3>
+                        <p>"Perdi 15kg em 6 meses e ganhei muito mais disposição!"</p>
+                        <div class="resultado-stats">
+                            <span>-15kg • +8% massa magra</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="resultado-card">
+                    <div class="antes-depois">
+                        <div class="antes">
+                            <img src="https://images.unsplash.com/photo-1594381898411-846e7d193883?w=200&h=250&fit=crop" alt="Antes">
+                            <span>Antes</span>
+                        </div>
+                        <div class="depois">
+                            <img src="https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?w=200&h=250&fit=crop" alt="Depois">
+                            <span>Depois</span>
+                        </div>
+                    </div>
+                    <div class="resultado-info">
+                        <h3>Carlos Santos</h3>
+                        <p>"Ganhei 12kg de massa muscular e me sinto incrível!"</p>
+                        <div class="resultado-stats">
+                            <span>+12kg massa magra • -5% gordura</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="resultado-card">
+                    <div class="antes-depois">
+                        <div class="antes">
+                            <img src="https://images.unsplash.com/photo-1601422407692-ec4eeec1d9b3?w=200&h=250&fit=crop" alt="Antes">
+                            <span>Antes</span>
+                        </div>
+                        <div class="depois">
+                            <img src="https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?w=200&h=250&fit=crop" alt="Depois">
+                            <span>Depois</span>
+                        </div>
+                    </div>
+                    <div class="resultado-info">
+                        <h3>Maria Oliveira</h3>
+                        <p>"Transformação completa do corpo e da mente!"</p>
+                        <div class="resultado-stats">
+                            <span>-18kg • +15% força</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contato" id="contato">
+        <div class="container">
+            <h2 class="section-title">Comece sua Transformação</h2>
+            <div class="contato-content">
+                <div class="contato-info">
+                    <h3>Agende sua Avaliação Gratuita</h3>
+                    <p>Descubra como posso te ajudar a alcançar seus objetivos com um plano personalizado.</p>
+                    
+                    <div class="info-items">
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Localização</h4>
+                                <p>Academia FitMax<br>Rua do Fitness, 456<br>Vila Olímpia, São Paulo</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Telefone</h4>
+                                <p>(11) 99999-8888</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>E-mail</h4>
+                                <p>marcus@fitprotraining.com</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-proof">
+                        <h4>Siga nas redes sociais</h4>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                            <a href="#"><i class="fab fa-whatsapp"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contato-form" id="contato-form">
+                    <h3>Solicite sua Avaliação</h3>
+                    <div class="form-row">
+                        <input type="text" placeholder="Seu nome" required>
+                        <input type="email" placeholder="Seu e-mail" required>
+                    </div>
+                    <div class="form-row">
+                        <input type="tel" placeholder="Seu telefone" required>
+                        <select required>
+                            <option value="">Seu objetivo</option>
+                            <option value="hipertrofia">Ganhar massa muscular</option>
+                            <option value="emagrecimento">Perder peso</option>
+                            <option value="condicionamento">Melhorar condicionamento</option>
+                            <option value="reabilitacao">Reabilitação</option>
+                            <option value="outro">Outro</option>
+                        </select>
+                    </div>
+                    <textarea placeholder="Conte um pouco sobre sua rotina e objetivos" rows="4"></textarea>
+                    <button type="submit" class="submit-btn">
+                        <i class="fas fa-paper-plane"></i>
+                        Agendar Avaliação Gratuita
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3><i class="fas fa-dumbbell"></i> FitPro Training</h3>
+                    <p>Transformando vidas através do fitness</p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Serviços</h4>
+                    <ul>
+                        <li><a href="#servicos">Personal Training</a></li>
+                        <li><a href="#servicos">Consultoria Online</a></li>
+                        <li><a href="#programas">Programas de Treino</a></li>
+                        <li><a href="#contato">Avaliação Física</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contato</h4>
+                    <p><i class="fas fa-phone"></i> (11) 99999-8888</p>
+                    <p><i class="fas fa-envelope"></i> marcus@fitprotraining.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Vila Olímpia, SP</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 FitPro Training. Todos os direitos reservados.</p>
+                <p>CREF: 123456-G/SP • Marcus Silva Personal Trainer</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
