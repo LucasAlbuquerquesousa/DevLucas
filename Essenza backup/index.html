@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Essenza Prime - Estética e Bem-estar</title>
+    <link rel="icon" type="image/png" href="./assets/Logo versão 5 - Vetorizado - Dourado fundo escuro - RGB.png">
+    <link href="https://fonts.googleapis.com/css2?family=Vollkorn:wght@600;700&family=Raleway:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- NAVEGAÇÃO -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <a href="#home" class="logo">
+                    <img src="./assets/Logo versão 5 - Vetorizado - Azul petróleo - CMYK.png" alt="Essenza Prime Logo" style="max-width: 90px; height: auto;">
+                </a>
+            </div>
+            <button class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Início</a></li>
+                <li><a href="#about" class="nav-link">Sobre</a></li>
+                <li><a href="#services" class="nav-link">Serviços</a></li>
+                <li><a href="#testimonials" class="nav-link">Depoimentos</a></li>
+                <li><a href="#location" class="nav-link">Localização</a></li>
+                <li><a href="#contato" class="nav-link cta-nav">Agendar</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Botão WhatsApp Flutuante -->
+    <a href="https://wa.me/5521967369147" class="whatsapp-button" target="_blank" rel="noopener noreferrer">
+        <svg class="whatsapp-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M20.52 3.48C18.25 1.3 15.31 0.01 12.06 0c-6.59 0-11.95 5.36-11.95 11.95 0 2.1.55 4.16 1.59 5.99L.64 23.77l6.35-2.08c1.75.96 3.72 1.47 5.72 1.47h.01c6.59 0 11.95-5.36 11.95-11.95 0-3.19-1.29-6.19-3.64-8.44zm-8.46 18.32c-1.79 0-3.54-.48-5.08-1.4l-.36-.22-3.75 1.24 1.26-3.72-.24-.36c-1.05-1.63-1.6-3.54-1.6-5.52 0-5.49 4.46-9.95 9.95-9.95 2.65 0 5.15 1.04 7.02 2.91 1.87 1.87 2.91 4.36 2.91 7.01 0 5.5-4.46 9.95-9.95 9.95zm5.43-7.48c-.3-.15-1.77-.87-2.04-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.64.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.06-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.62-.92-2.21-.24-.59-.49-.51-.67-.51-.17-.01-.37-.01-.57-.01-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.07 2.88 1.22 3.08.15.2 2.1 3.2 5.08 4.49.71.3 1.27.48 1.7.63.71.23 1.36.2 1.87.12.57-.09 1.76-.72 2.01-1.41.25-.7.25-1.29.17-1.42-.07-.13-.27-.2-.57-.35z"/>
+        </svg>
+    </a>
+    
+    <!-- HERO COM CARROSSEL -->
+    <section class="hero" id="home">
+        <div class="hero-carousel">
+            <div class="hero-slide active" style="background: linear-gradient(135deg, #006A6F 0%, #004d52 100%);">
+                <div class="hero-content">
+                    <h1>Natural é o novo premium</h1>
+                    <p>Estética com precisão e ciência</p>
+                    <a href="#contato" class="cta-button">Agende sua avaliação</a>
+                </div>
+            </div>
+            <div class="hero-slide" style="background: linear-gradient(135deg, #E6D27B 0%, #d4b860 100%);">
+                <div class="hero-content dark">
+                    <h1>Cada rosto tem história</h1>
+                    <p>Buscamos harmonia, não exagero</p>
+                    <a href="#contato" class="cta-button dark-cta">Descobrir mais</a>
+                </div>
+            </div>
+            <div class="hero-slide" style="background: linear-gradient(135deg, #F5F5F5 0%, #e0e0e0 100%);">
+                <div class="hero-content dark">
+                    <h1>Evolução construída</h1>
+                    <p>Avaliamos. Planejamos. Tratamos.</p>
+                    <a href="#contato" class="cta-button dark-cta">Conheça nossos serviços</a>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-indicators">
+            <span class="indicator active" onclick="currentSlide(0)"></span>
+            <span class="indicator" onclick="currentSlide(1)"></span>
+            <span class="indicator" onclick="currentSlide(2)"></span>
+        </div>
+    </section>
+
+    <!-- SEÇÃO SOBRE A PROFISSIONAL -->
+    <section class="about-professional" id="about">
+        <div class="about-container">
+            <div class="about-image">
+                <div class="placeholder-image">
+                    <!-- Espaço para foto da profissional -->
+                    <p>Foto de Amanda Marques</p>
+                </div>
+            </div>
+            <div class="about-content">
+                <h2>Sobre a nossa profissional</h2>
+                <div class="professional-info">
+                    <p><strong>Dra. Amanda Marques</strong><br>
+                    Biomédica especializada em Estética<br>
+                    CRBM: 57224</p>
+                </div>
+                <div class="about-text">
+                    <p><strong>Aqui, estética não é "receita pronta".</strong></p>
+                    <p>Cada rosto tem história, estrutura e tempo.<br>
+                    O trabalho é feito com precisão, segurança e ciência, respeitando limites e buscando harmonia, não exagero.</p>
+                    
+                    <h3>Nosso Mantra:</h3>
+                    <p class="highlight">"Natural é o novo premium."</p>
+                    
+                    <p><strong>Não fazemos "procedimento por catálogo".</strong></p>
+                    <ul class="process-list">
+                        <li>Primeiro <strong>avaliamos</strong>.</li>
+                        <li>Depois <strong>planejamos</strong>.</li>
+                        <li>Só então <strong>tratamos</strong>.</li>
+                    </ul>
+                    
+                    <p><strong>Nada de prometer resultado.<br>
+                    Nada de milagre.<br>
+                    Só evolução construída.</strong></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO DE SERVIÇOS -->
+    <section class="services" id="services">
+        <div class="services-container">
+            <h2>Nossos Serviços</h2>
+            
+            <div class="service-filters">
+                <button class="filter-btn active" data-filter="corporal">Corporal</button>
+                <button class="filter-btn" data-filter="facial">Facial</button>
+                <button class="filter-btn" data-filter="aparelhos">Aparelhos</button>
+            </div>
+
+            <div class="services-grid">
+                <!-- SERVIÇOS CORPORAIS -->
+                <div class="service-card corporal" data-category="corporal">
+                    <div class="service-image">
+                        <div class="image-placeholder">Massagem Relaxante</div>
+                    </div>
+                    <h3>Massagem Relaxante</h3>
+                    <p class="service-summary">Técnica de relaxamento muscular que contribui para bem-estar integral.</p>
+                    <button class="expand-btn">Saiba mais</button>
+                    <div class="service-details hidden">
+                        <p>A massagem relaxante auxilia na redução de tensões musculares e estresse, estimulando a circulação sanguínea e promovendo sensação de bem-estar. Ideal para quem busca relaxamento profundo e regeneração muscular.</p>
+                    </div>
+                </div>
+
+                <div class="service-card corporal" data-category="corporal">
+                    <div class="service-image">
+                        <div class="image-placeholder">Drenomodeladora</div>
+                    </div>
+                    <h3>Drenagem Modeladora</h3>
+                    <p class="service-summary">Técnica que contribui para melhora do contorno corporal.</p>
+                    <button class="expand-btn">Saiba mais</button>
+                    <div class="service-details hidden">
+                        <p>Combina técnicas de drenagem com modelagem, estimulando a circulação linfática e auxiliando na redução de flacidez. O procedimento é individualizado conforme avaliação prévia e resultados variam conforme biotipo e cuidados pessoais.</p>
+                    </div>
+                </div>
+
+                <div class="service-card corporal" data-category="corporal">
+                    <div class="service-image">
+                        <div class="image-placeholder">Drenagem Linfática</div>
+                    </div>
+                    <h3>Drenagem Linfática</h3>
+                    <p class="service-summary">Técnica que estimula o sistema linfático para melhor drenagem.</p>
+                    <button class="expand-btn">Saiba mais</button>
+                    <div class="service-details hidden">
+                        <p>Procedimento que auxilia a estimulação do sistema linfático, contribuindo para redução de inchaços e desconfortos. Realizado com precisão e técnica adequada para cada caso, sob avaliação individualizada.</p>
+                    </div>
+                </div>
+
+                <div class="service-card corporal" data-category="corporal">
+                    <div class="service-image">
+                        <div class="image-placeholder">Drenagem Pós-operatória</div>
+                    </div>
+                    <h3>Drenagem Pós-operatória</h3>
+                    <p class="service-summary">Auxilia na recuperação pós-cirúrgica com técnicas especializadas.</p>
+                    <button class="expand-btn">Saiba mais</button>
+                    <div class="service-details hidden">
+                        <p>Procedimento especializado que contribui para redução de edemas pós-operatórios, estimulando a circulação e auxiliando na recuperação. Realizado somente sob orientação médica e avaliação individual.</p>
+                    </div>
+                </div>
+
+                <div class="service-card corporal" data-category="corporal">
+                    <div class="service-image">
+                        <div class="image-placeholder">Intradermoterapia</div>
+                    </div>
+                    <h3>Intradermoterapia</h3>
+                    <p class="service-summary">Aplicação de substâncias que auxiliam na revitalização da pele.</p>
+                    <button class="expand-btn">Saiba mais</button>
+                    <div class="service-details hidden">
+                        <p>Técnica que auxilia na revitalização e fortalecimento da derme através de aplicação de substâncias específicas. Contribui para melhora da textura e elasticidade da pele. Individualizado conforme avaliação.</p>
+                    </div>
+                </div>
+
+                <div class="service-card corporal" data-category="corporal">
+                    <div class="service-image">
+                        <div class="image-placeholder">Hidrolipoclasia</div>
+                    </div>
+                    <h3>Hidrolipoclasia</h3>
+                    <p class="service-summary">Técnica que contribui para redução localizada de gordura.</p>
+                    <button class="expand-btn">Saiba mais</button>
+                    <div class="service-details hidden">
+                        <p>Procedimento que utiliza ondas ultrassônicas para contribuir à redução de depósitos adiposos localizados. Auxilia no contorno corporal de forma gradual e natural. Resultados variam conforme biotipo.</p>
+                    </div>
+                </div>
+
+                <div class="service-card corporal" data-category="corporal">
+                    <div class="service-image">
+                        <div class="image-placeholder">Harmonização Glútea</div>
+                    </div>
+                    <h3>Harmonização Glútea</h3>
+                    <p class="service-summary">Procedimento que auxilia na harmonização e elevação glútea.</p>
+                    <button class="expand-btn">Saiba mais</button>
+                    <div class="service-details hidden">
+                        <p>Técnica que contribui para melhora do contorno e firmeza glútea através de procedimentos especializados. Estimula a produção de colágeno e auxilia no desenvolvimento muscular. Individualizado sob avaliação.</p>
+                    </div>
+                </div>
+
+                <!-- SERVIÇOS FACIAIS -->
+                <div class="service-card facial hidden" data-category="facial">
+                    <div class="service-image">
+                        <div class="image-placeholder">Limpeza de Pele</div>
+                    </div>
+                    <h3>Limpeza de Pele</h3>
+                    <p class="service-summary">Procedimento que contribui para limpeza profunda e renovação cutânea.</p>
+                    <button class="expand-btn">Saiba mais</button>
+                    <div class="service-details hidden">
+                        <p>Limpeza profunda que auxilia na remoção de impurezas e estimula a renovação celular. Contribui para melhora da textura e claridade da pele. Realizado com técnicas suaves e adaptadas a cada tipo de pele.</p>
+                    </div>
+                </div>
+
+                <div class="service-card facial hidden" data-category="facial">
+                    <div class="service-image">
+                        <div class="image-placeholder">Drenagem Linfática Facial</div>
+                    </div>
+                    <h3>Drenagem Linfática Facial</h3>
+                    <p class="service-summary">Estimula drenagem e reduz inchaço, contribuindo para face revigorada.</p>
+                    <button class="expand-btn">Saiba mais</button>
+                    <div class="service-details hidden">
+                        <p>Técnica que auxilia a estimulação do sistema linfático facial, contribuindo para redução de inchaços e aspecto mais descansado. Melhora a circulação e promove revitalização natural da pele.</p>
+                    </div>
+                </div>
+
+                <div class="service-card facial hidden" data-category="facial">
+                    <div class="service-image">
+                        <div class="image-placeholder">Drenagem Pós-operatória Facial</div>
+                    </div>
+                    <h3>Drenagem Pós-operatória Facial</h3>
+                    <p class="service-summary">Especializada em recuperação pós-cirúrgica facial.</p>
+                    <button class="expand-btn">Saiba mais</button>
+                    <div class="service-details hidden">
+                        <p>Procedimento que contribui para redução de edemas pós-operatórios faciais, estimulando circulação adequada. Auxilia no processo de cicatrização e recuperação gradual. Realizado sob orientação médica.</p>
+                    </div>
+                </div>
+
+                <div class="service-card facial hidden" data-category="facial">
+                    <div class="service-image">
+                        <div class="image-placeholder">Peeling Ultrassônico</div>
+                    </div>
+                    <h3>Peeling Ultrassônico</h3>
+                    <p class="service-summary">Auxilia na renovação e revitalização profunda da pele.</p>
+                    <button class="expand-btn">Saiba mais</button>
+                    <div class="service-details hidden">
+                        <p>Técnica que utiliza ultrassom para contribuir à renovação celular profunda, auxiliando na redução de marcas, cicatrizes e irregularidades. Estimula a produção de colágeno de forma gradual e natural.</p>
+                    </div>
+                </div>
+
+                <div class="service-card facial hidden" data-category="facial">
+                    <div class="service-image">
+                        <div class="image-placeholder">Intradermoterapia Facial</div>
+                    </div>
+                    <h3>Intradermoterapia Facial</h3>
+                    <p class="service-summary">Contribui para revitalização e preenchimento natural da face.</p>
+                    <button class="expand-btn">Saiba mais</button>
+                    <div class="service-details hidden">
+                        <p>Aplicação de substâncias na derme que auxiliam na revitalização e hidratação profunda. Contribui para melhora de rugas finas e elasticidade. Procedimento individualizado sob avaliação prévia.</p>
+                    </div>
+                </div>
+
+                <div class="service-card facial hidden" data-category="facial">
+                    <div class="service-image">
+                        <div class="image-placeholder">Lipo de Papada</div>
+                    </div>
+                    <h3>Lipo de Papada</h3>
+                    <p class="service-summary">Auxilia na redução e definição da região da papada.</p>
+                    <button class="expand-btn">Saiba mais</button>
+                    <div class="service-details hidden">
+                        <p>Procedimento que contribui à redução de gordura localizada na região de papada, auxiliando na definição do contorno facial. Estimula a produção de colágeno e promove enrijecimento gradual da pele.</p>
+                    </div>
+                </div>
+
+                <div class="service-card facial hidden" data-category="facial">
+                    <div class="service-image">
+                        <div class="image-placeholder">Ultrassom Microfocado</div>
+                    </div>
+                    <h3>Ultrassom Microfocado</h3>
+                    <p class="service-summary">Auxilia no lifting e revitalização profunda com tecnologia avançada.</p>
+                    <button class="expand-btn">Saiba mais</button>
+                    <div class="service-details hidden">
+                        <p>Procedimento que utiliza ultrassom microfocado para estimular colágeno em camadas profundas, contribuindo para lifting natural e enrijecimento da pele. Procedimento não invasivo com resultados progressivos.</p>
+                    </div>
+                </div>
+
+                <!-- SERVIÇOS COM APARELHOS -->
+                <div class="service-card aparelhos hidden" data-category="aparelhos">
+                    <div class="service-image">
+                        <div class="image-placeholder">Criolipólise de Placas</div>
+                    </div>
+                    <h3>Criolipólise de Placas</h3>
+                    <p class="service-summary">Auxilia na redução de gordura localizada através do frio controlado.</p>
+                    <button class="expand-btn">Saiba mais</button>
+                    <div class="service-details hidden">
+                        <p>Procedimento que utiliza temperatura controlada para contribuir à redução de depósitos adiposos. Não invasivo e que auxilia no contorno corporal de forma gradual. Resultados variam conforme biotipo e cuidados pessoais.</p>
+                    </div>
+                </div>
+
+                <div class="service-card aparelhos hidden" data-category="aparelhos">
+                    <div class="service-image">
+                        <div class="image-placeholder">Lipocavitação</div>
+                    </div>
+                    <h3>Lipocavitação</h3>
+                    <p class="service-summary">Utiliza cavitação ultrassônica para redução de gordura localizada.</p>
+                    <button class="expand-btn">Saiba mais</button>
+                    <div class="service-details hidden">
+                        <p>Procedimento com ultrassom de frequência específica que contribui à redução de gordura localizada. Auxilia no contorno corporal e melhora da textura da pele. Procedimento individualizado conforme avaliação.</p>
+                    </div>
+                </div>
+
+                <div class="service-card aparelhos hidden" data-category="aparelhos">
+                    <div class="service-image">
+                        <div class="image-placeholder">Criofrequência</div>
+                    </div>
+                    <h3>Criofrequência</h3>
+                    <p class="service-summary">Combina frio e radiofrequência para lifting e enrijecimento.</p>
+                    <button class="expand-btn">Saiba mais</button>
+                    <div class="service-details hidden">
+                        <p>Procedimento que combina frio com radiofrequência para estimular colágeno e contribuir ao enrijecimento da pele. Auxilia em flacidez leve a moderada e melhora da textura cutânea de forma natural e progressiva.</p>
+                    </div>
+                </div>
+
+                <div class="service-card aparelhos hidden" data-category="aparelhos">
+                    <div class="service-image">
+                        <div class="image-placeholder">Depilação a Laser</div>
+                    </div>
+                    <h3>Depilação a Laser</h3>
+                    <p class="service-summary">Tecnologia avançada para redução permanente de pelos.</p>
+                    <button class="expand-btn">Saiba mais</button>
+                    <div class="service-details hidden">
+                        <p>Procedimento com laser de última geração que auxilia na redução progressiva de pelos. Indicado para diversos tipos de pele. Requer múltiplas sessões para resultados ótimos. Avaliação prévia necessária.</p>
+                    </div>
+                </div>
+
+                <div class="service-card aparelhos hidden" data-category="aparelhos">
+                    <div class="service-image">
+                        <div class="image-placeholder">Inkie</div>
+                    </div>
+                    <h3>Inkie</h3>
+                    <p class="service-summary">Remoção de tatuagens e manchas com tecnologia de ponta.</p>
+                    <button class="expand-btn">Saiba mais</button>
+                    <div class="service-details hidden">
+                        <p>Procedimento que auxilia na remoção ou redução de tatuagens e manchas através de tecnologia avançada. Requer múltiplas sessões conforme característica da tatuagem. Resultados variam conforme cor, tamanho e profundidade.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="observation">
+                <p><strong>Observação importante:</strong> Procedimentos realizados somente após avaliação individual. Resultados variam conforme biotipo e cuidados pessoais.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO DE DEPOIMENTOS -->
+    <section class="testimonials" id="testimonials">
+        <div class="testimonials-container">
+            <h2>O que nossos clientes dizem</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"Muito bom!!"</p>
+                    <p class="testimonial-author">@bruninha.yara</p>
+                </div>
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"Amei"</p>
+                    <p class="testimonial-author">@nosso.ap404_ <span class="verified">✓</span></p>
+                </div>
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"Já estou ansiosa para minha próxima sessão"</p>
+                    <p class="testimonial-author">@umacariocacolorida</p>
+                </div>
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"Que procedimento incrível, amei"</p>
+                    <p class="testimonial-author">@raquel_guedes_oficial</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO DE LOCALIZAÇÃO -->
+    <section class="location" id="location">
+        <div class="location-container">
+            <h2>Nos encontre</h2>
+            <div class="location-info">
+                <div class="location-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3672.4333152008635!2d-43.309614325530525!3d-23.007856979184037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bd0c65bac09fb%3A0x741857803529e0de!2sAv.%20Armando%20Lombardi%2C%20205%20-%20Barra%20da%20Tijuca%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2022640-020!5e0!3m2!1spt-BR!2sbr!4v1762883258733!5m2!1spt-BR!2sbr" width="100%" height="300" style="border:none; border-radius: 8px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="location-text">
+                    <img src="assets/Logo versão 5 - Vetorizado - Azul petróleo - CMYK.png" alt="Essenza Prime Logo" style="max-width: 120px; margin-bottom: 15px;">
+                    <h3>Essenza Prime Clinic</h3>
+                    <p><strong>Endereço:</strong><br>
+                    Av. Armando Lombardi, 205 - Sala 206<br>
+                    Barra da Tijuca, Rio de Janeiro - RJ</p>
+                    <p><strong>Telefone:</strong><br>
+                    <a href="tel:+5521967369147">+55 (21) 96736-9147</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO CTA FINAL -->
+    <section class="final-cta" id="contato">
+        <div class="cta-container">
+            <h2>Pronto para sua transformação?</h2>
+            <p>Agende sua avaliação individualizada e descubra o que a Essenza Prime pode fazer por você.</p>
+            <a href="https://wa.me/5521967369147" class="cta-button-large">Agende pelo WhatsApp</a>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <img src="assets/Logo versão 5 - Vetorizado - Dourado fundo claro - RGB.png" alt="Essenza Prime Logo" style="max-width: 150px; margin-bottom: 10px;">
+                    <p>Estética com precisão, segurança e ciência.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Contato</h4>
+                    <p><a href="tel:+5521967369147">+55 (21) 96736-9147</a></p>
+                    <p><a href="mailto:contato@essenzaprime.com">contato@essenzaprime.com</a></p>
+                </div>
+                <div class="footer-section">
+                <h4>Redes Sociais</h4>
+                <p>
+                    <a href="https://www.instagram.com/essenza_prime_clinic/" target="_blank" style="display: flex; align-items: center; gap: 8px;">
+                            <svg style="width: 20px; height: 20px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4c0 3.2-2.6 5.8-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8C2 4.6 4.6 2 7.8 2m-.5 2c-1.5 0-2.7 1.2-2.7 2.8v8.4c0 1.5 1.2 2.7 2.8 2.7h8.4c1.5 0 2.7-1.2 2.7-2.8V7.8c0-1.5-1.2-2.7-2.8-2.7H7.3m9.2 1.5a1.25 1.25 0 0 1 0 2.5 1.25 1.25 0 0 1 0-2.5M12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10m0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6z"/>
+                            </svg>
+                            @essenza_prime_clinic
+                        </a>
+                    </p>
+                    <p>
+                        <a href="https://www.instagram.com/draamanda.biomed/" target="_blank" style="display: flex; align-items: center; gap: 8px;">
+                            <svg style="width: 20px; height: 20px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4c0 3.2-2.6 5.8-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8C2 4.6 4.6 2 7.8 2m-.5 2c-1.5 0-2.7 1.2-2.7 2.8v8.4c0 1.5 1.2 2.7 2.8 2.7h8.4c1.5 0 2.7-1.2 2.7-2.8V7.8c0-1.5-1.2-2.7-2.8-2.7H7.3m9.2 1.5a1.25 1.25 0 0 1 0 2.5 1.25 1.25 0 0 1 0-2.5M12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10m0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6z"/>
+                            </svg>
+                            @draamanda.biomed
+                        </a>
+                    </p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Essenza Prime. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
